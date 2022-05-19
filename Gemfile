@@ -45,7 +45,7 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 gem "sassc-rails"
 
-# Auto-prefixer for rails
+# Auto-prefixer for CSS rules
 gem "autoprefixer-rails"
 
 # Font-awesome SASS

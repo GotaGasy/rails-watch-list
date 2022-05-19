@@ -140,10 +140,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:17.0.34", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.34-e33ea1377d-eb9a640ab8.zip/node_modules/@types/node/",\
+        ["npm:17.0.35", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.35-5cf9c3dec8-7a24946ae7.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:17.0.34"]\
+            ["@types/node", "npm:17.0.35"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -890,7 +890,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/jest-worker-npm-27.5.1-1c110b5894-98cd68b696.zip/node_modules/jest-worker/",\
           "packageDependencies": [\
             ["jest-worker", "npm:27.5.1"],\
-            ["@types/node", "npm:17.0.34"],\
+            ["@types/node", "npm:17.0.35"],\
             ["merge-stream", "npm:2.0.0"],\
             ["supports-color", "npm:8.1.1"]\
           ],\

@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-between">
+  <h2>Create a new Lists</h2>
+  <p>
+    <%= link_to lists_path, class:"btn btn-primary text-decoration-none" do %>
+      <i class='fa-solid fa-clock-rotate-left'></i> Return to all lists
+    <% end %>
+  </p>
+</div>
+
+  <%= simple_form_for @list do |f| %>
+    <%= f.input :name, placeholder: 'A name category' %>
+    <%= f.button :submit, class: 'btn btn-primary' %>
+  <% end %>

@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-between">
+  <h2>Your lists</h2>
+  <p><%= link_to 'New a list', new_list_path, class: "btn btn-primary text-decoration-none" %></p>
+</div>
+
+<ol class="list-unstyled p-2 alert-secondary">
+  <% @lists.each do |l| %>
+    <li>
+      <strong>
+        <%= link_to list_path(l), class: "text-decoration-none" do %>
+          <%= l.id %> - <%= l.name %>
+        <% end %>
+      </strong>
+  <% end %>
+</ol>

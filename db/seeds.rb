@@ -1,4 +1,6 @@
 # db/seeds.rb
+puts 'create a table of movie '
+
 Movie.create(
   title: 'Wonder Woman 1984',
   overview: 'Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s',
