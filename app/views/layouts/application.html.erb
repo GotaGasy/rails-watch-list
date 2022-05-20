@@ -11,10 +11,8 @@
   </head>
 
   <body>
-    <div class="container p-0">
-      <div class="row justify-content-center my-3">
-        <%= yield %>
-      </div>
-    </div>
+    <%= render 'shared/navbar' %>
+    <%= render 'shared/flashes' %>
+    <%= yield %>
   </body>
 </html>
